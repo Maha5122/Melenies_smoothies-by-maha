@@ -11,7 +11,7 @@ st.write(
 
 #import streamlit as st
 
-cnx = st.connection("Snowflake")
+cnx = st.connections("Snowflake")
 session = cnx.session()
 
 session = get_active_session()
